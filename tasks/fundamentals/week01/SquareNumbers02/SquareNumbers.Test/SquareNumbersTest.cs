@@ -1,5 +1,7 @@
 namespace SquareNumbers.Test;
 
+using TermControl;
+
 public class SquareNumbersTest
 {
     [Fact]

@@ -1,6 +1,6 @@
 namespace RunningSum.Test;
 
-using TermCtrl;
+using TermControl;
 
 public class RunningSumTest
 {

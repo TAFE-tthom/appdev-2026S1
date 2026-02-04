@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿
+Console.WriteLine("Convert your Fahrenheit to Celsius");
 

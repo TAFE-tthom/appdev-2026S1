@@ -1,6 +1,6 @@
 namespace Grades.Test;
 
-using TermCtrl;
+using TermControl;
 
 
 public class GradesTest

@@ -1,5 +1,7 @@
 namespace FahToCel.Test;
 
+using TermControl;
+
 public class FahToCelTestRunner
 {
     [Fact]
