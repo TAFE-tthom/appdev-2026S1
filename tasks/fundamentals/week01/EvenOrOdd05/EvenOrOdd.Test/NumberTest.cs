@@ -1,6 +1,6 @@
 ﻿namespace EvenOrOdd.Test;
 
-using TermControl.TermController;
+using TermControl;
 
 public class NumberTest
 {
