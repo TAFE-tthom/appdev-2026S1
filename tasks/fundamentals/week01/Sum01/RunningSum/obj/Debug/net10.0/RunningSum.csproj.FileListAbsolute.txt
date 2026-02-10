@@ -1,0 +1,15 @@
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\bin\Debug\net10.0\RunningSum.exe
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\bin\Debug\net10.0\RunningSum.deps.json
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\bin\Debug\net10.0\RunningSum.runtimeconfig.json
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\bin\Debug\net10.0\RunningSum.dll
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\bin\Debug\net10.0\RunningSum.pdb
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.AssemblyInfoInputs.cache
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.AssemblyInfo.cs
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.csproj.CoreCompileInputs.cache
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.sourcelink.json
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.dll
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\refint\RunningSum.dll
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.pdb
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\RunningSum.genruntimeconfig.cache
+D:\TAFE_assignments\fork\appdev-2026S1\tasks\fundamentals\week01\Sum01\RunningSum\obj\Debug\net10.0\ref\RunningSum.dll

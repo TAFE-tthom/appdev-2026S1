@@ -4,18 +4,20 @@ using TermControl;
 
 public class RunningSumTest
 {
+    string lineBreak = Environment.NewLine;
+    
     [Fact]
     public void Test_Sum_1_Only()
     {
         TermController ctlr = new TermController()
             .RecordStdOut()
-            .SetStringInput("15\n")
+            .SetStringInput($"15\n")
             .FindAndInvokeMain("Program, RunningSum", new string[] {});
 
         ctlr.FlushStdOut();
 
         string output = ctlr.GetOutputString();
-        string[] nlineOutput = output.Split("\n");
+        string[] nlineOutput = output.Replace("\r", "").Split("\n");
         Console.WriteLine(output + ": !!");
 
         Assert.Equal("Enter a number: ", nlineOutput[0]);
@@ -30,13 +32,13 @@ public class RunningSumTest
     {
         TermController ctlr = new TermController()
             .RecordStdOut()
-            .SetStringInput("15\n30\n")
+            .SetStringInput($"15{lineBreak}30{lineBreak}")
             .FindAndInvokeMain("Program, RunningSum", new string[] {});
 
         ctlr.FlushStdOut();
 
         string output = ctlr.GetOutputString();
-        string[] nlineOutput = output.Split("\n");
+        string[] nlineOutput = output.Replace("\r", "").Split("\n");
         Console.WriteLine(output + ": !!");
 
         Assert.Equal("Enter a number: ", nlineOutput[0]);
@@ -52,13 +54,13 @@ public class RunningSumTest
     {
         TermController ctlr = new TermController()
             .RecordStdOut()
-            .SetStringInput("15\n30\n30\n60\n15\n")
+            .SetStringInput($"15{lineBreak}30{lineBreak}30{lineBreak}60{lineBreak}15{lineBreak}")
             .FindAndInvokeMain("Program, RunningSum", new string[] {});
 
         ctlr.FlushStdOut();
 
         string output = ctlr.GetOutputString();
-        string[] nlineOutput = output.Split("\n");
+        string[] nlineOutput = output.Replace("\r", "").Split("\n");
         Console.WriteLine(output + ": !!");
 
         Assert.Equal("Enter a number: ", nlineOutput[0]);
