@@ -13,6 +13,7 @@ public class RowMajorArray
 
     public int Get(int x, int y) {
 
+        return 0;
     }
 
     public void Set(int x, int y, int v) {
