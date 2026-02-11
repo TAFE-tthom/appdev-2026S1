@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\TermControl\TermControl.csproj" />
+    <ProjectReference Include="..\EvenOrOdd\EvenOrOdd.csproj" />
   </ItemGroup>
 
 </Project>
