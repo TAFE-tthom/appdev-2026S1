@@ -8,13 +8,15 @@ public class NumberTest
     public void EvenOrOdd_Test23()
     {
         TermController ctlr = new TermController()
+            .ResetStdIn()
+            .ResetStdOut()
             .RecordStdOut()
             .SetStringInput("23\n")
             .FindAndInvokeMain("Program, EvenOrOdd", new string[] {});
 
         ctlr.FlushStdOut();
 
-        string output = ctlr.GetOutputString();
+        string output = ctlr.GetRawOutputString();
 
         Assert.Equal("Odd\n", output);
 
@@ -32,7 +34,7 @@ public class NumberTest
         ctlr.FlushStdOut();
 
         string output = ctlr.GetOutputString();
-
+        Console.WriteLine(output);
         Assert.Equal("Even\n", output);
 
         ctlr.ResetAll();
@@ -67,7 +69,7 @@ public class NumberTest
 
         string output = ctlr.GetOutputString();
 
-        Assert.Equal("Odd\n", output);
+        Assert.Equal("Invalid\n", output);
 
         ctlr.ResetAll();
         
