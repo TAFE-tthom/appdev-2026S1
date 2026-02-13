@@ -47,7 +47,7 @@ public class PaletteTest
     [Fact]
     public void Test_BadMagic()
     {
-        string expectedOutput = TermControlDataLoader.LoadContentsFromFile("files/imgbadmagic.b");
+        string expectedOutput = TermControlDataLoader.LoadContentsFromFile("files/magic.out");
         string output = TermControlDataLoader.TermControlDefaultRunner("", ProgramName, new string[] { "files/imgbadmagic.b" });
 
         Assert.Equal(expectedOutput, output);
