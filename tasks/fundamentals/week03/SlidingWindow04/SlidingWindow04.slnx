@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SlidingWindow.Test/SlidingWindow.Test.csproj" />
+  <Project Path="SlidingWindow/SlidingWindow.csproj" />
+</Solution>
