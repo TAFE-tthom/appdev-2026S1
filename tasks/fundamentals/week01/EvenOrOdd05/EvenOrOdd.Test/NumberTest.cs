@@ -16,7 +16,7 @@ public class NumberTest
 
         ctlr.FlushStdOut();
 
-        string output = ctlr.GetRawOutputString();
+        string output = ctlr.GetOutputString();
 
         Assert.Equal("Odd\n", output);
 
@@ -29,7 +29,7 @@ public class NumberTest
         TermController ctlr = new TermController()
             .RecordStdOut()
             .SetStringInput("20\n")
-            .FindAndInvokeMain("Program, EvenOrOdd", new string[] {});
+            .FindAndInvokeMain("EvenOrOdd.Program, EvenOrOdd", new string[] {});
 
         ctlr.FlushStdOut();
 
@@ -46,7 +46,7 @@ public class NumberTest
         TermController ctlr = new TermController()
             .RecordStdOut()
             .SetStringInput("A\n")
-            .FindAndInvokeMain("Program, EvenOrOdd", new string[] {});
+            .FindAndInvokeMain("EvenOrOdd.Program, EvenOrOdd", new string[] {});
 
         ctlr.FlushStdOut();
 
@@ -63,7 +63,7 @@ public class NumberTest
         TermController ctlr = new TermController()
             .RecordStdOut()
             .SetStringInput("\n")
-            .FindAndInvokeMain("Program, EvenOrOdd", new string[] {});
+            .FindAndInvokeMain("EvenOrOdd.Program, EvenOrOdd", new string[] {});
 
         ctlr.FlushStdOut();
 
@@ -80,7 +80,7 @@ public class NumberTest
         TermController ctlr = new TermController()
             .RecordStdOut()
             .SetStringInput("-1\n")
-            .FindAndInvokeMain("Program, EvenOrOdd", new string[] {});
+            .FindAndInvokeMain("EvenOrOdd.Program, EvenOrOdd", new string[] {});
 
         ctlr.FlushStdOut();
 
@@ -97,7 +97,7 @@ public class NumberTest
         TermController ctlr = new TermController()
             .RecordStdOut()
             .SetStringInput("-20\n")
-            .FindAndInvokeMain("Program, EvenOrOdd", new string[] {});
+            .FindAndInvokeMain("EvenOrOdd.Program, EvenOrOdd", new string[] {});
 
         ctlr.FlushStdOut();
 
