@@ -193,7 +193,7 @@ public class CounterTest
                 CounterTestAction.MakeForward(),
                 CounterTestAction.MakeForward(),
                 CounterTestAction.MakeGet(3),
-                CounterTestAction.MakeForward(),
+                CounterTestAction.MakeReset(),
                 CounterTestAction.MakeGet(0),
                 
             }
