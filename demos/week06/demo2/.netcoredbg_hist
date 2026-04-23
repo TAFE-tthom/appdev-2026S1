@@ -1,0 +1,97 @@
+help
+uit
+quit
+help
+break 48
+break 53
+run 
+b 48
+b 53
+b 56
+run
+b Program.cs:48
+b Program.cs:54
+b Program.cs:56
+run
+list
+b 48
+b Program.cs:48
+b Program.cs:53
+b Program.cs:5356
+b Program.cs:56
+run
+list
+help
+f
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+s
+list
+f
+help
+help frame
+backtrace
+s
+list
+s
+list
+backtrace
+s
+backtrace
+list
+s
+list
+backtrace
+s
+backtrace
+list
+s
+backtrace
+s
+backtrace
+c
+b Program.cs:50
+b Program.cs:53
+b Program.cs:56
+run
+list
+backtrace
+s
+backtrace
+s
+backtrace
+s
+backtrace
+s
+backtrace
+list
+s
+list
+backtrace
+s
+backtrace
+s
+list
+s
+backtrace
+c
+backtrace
+c
