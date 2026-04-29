@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CSVIterator.Test/CSVIterator.Test.csproj" />
+  <Project Path="CSVIterator/CSVIterator.csproj" />
+</Solution>

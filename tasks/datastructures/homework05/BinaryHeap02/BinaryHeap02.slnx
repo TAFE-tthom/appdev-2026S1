@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BinaryHeap.Test/BinaryHeap.Test.csproj" />
+  <Project Path="BinaryHeap/BinaryHeap.csproj" />
+</Solution>
