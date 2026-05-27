@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MazeSolver.Test/MazeSolver.Test.csproj" />
+  <Project Path="MazeSolver/MazeSolver.csproj" />
+</Solution>

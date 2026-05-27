@@ -143,7 +143,7 @@ public class StackTest
 
 
         stack.Push(9);
-        Assert.Equal(4, stack.Length());
+        Assert.Equal(3, stack.Length());
 
         Assert.Equal(9, stack.Pop());
         Assert.Equal(2, stack.Length());
